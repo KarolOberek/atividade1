@@ -1,4 +1,4 @@
-let aleatorio = Math.floor(Math.random() * 10);
+let aleatorio = Math.floor(Math.random() * 100);
 console.log("Advinhe em número (tem 3 tentativas)");
 let tentativas = 3;
 let num_tentativas = 0;
@@ -28,6 +28,6 @@ process.stdin.on("data", function (data) {
         " outro número aleatório foi gerado! Tente novamente. "
     );
     tentativas = 3;
-    aleatorio = Math.floor(Math.random() * 10);
+    aleatorio = Math.floor(Math.random() * 100);
   }
 });
