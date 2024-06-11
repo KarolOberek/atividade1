@@ -1,4 +1,4 @@
-let aleatorio = Math.floor(Math.random() * 100);
+let aleatorio = Math.floor(Math.random() * 101) + 100;
 console.log("Advinhe em número (tem 3 tentativas)");
 let tentativas = 3;
 let num_tentativas = 0;
